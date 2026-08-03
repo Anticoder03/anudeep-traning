@@ -1,58 +1,58 @@
-# Data Analytics
+# Python Practice Projects
 
-1. **NumPy** 
-2. **Pandas** 
-3. **Matplotlib** 
-4. **TensorFlow** 
-5. **Streamlit** 
+This repository contains a collection of beginner-friendly Python exercises and a small GUI application. It is designed for learning core Python concepts such as variables, operators, loops, functions, lists, file handling, and basic GUI development.
 
----
+## Project Overview
 
-# Web Development
+The workspace includes:
+- Simple Python practice scripts for fundamental programming concepts
+- A small to-do list application built with PyQt6
+- Example programs for tasks and assignments
 
-1. **FastAPI** 
-2. **Django** 
-3. **Flask** 
-4. **python-dotenv** 
-5. **Streamlit** 
+## Files Included
 
----
+- main.py - A modern to-do list application with add, edit, remove, and clear actions
+- task-1.py and task-2.py - Practice scripts and assignment-style examples
+- functions.py - Function-related exercises
+- loops.py - Loop-based practice programs
+- list_operations.py - List manipulation examples
+- file_operations.py - File handling exercises
+- Q1.py and nimmaxsum.py - Additional Python practice files
+- student.txt - Sample data file used in some exercises
 
-# Cyber Security
+## Requirements
 
-1. **Scapy** 
-2. **Pwntools** 
-3. **Paramiko** 
-4. **Cryptography**
-5. **Requests** 
+To run the GUI application, make sure you have Python installed and install PyQt6:
 
----
+```bash
+pip install PyQt6
+```
 
-# GUI Development
+## How to Run
 
-1. **Tkinter** 
-2. **PyQt6** 
-3. **PySide6** 
-4. **Kivy** 
-5. **CustomTkinter** 
+Run the to-do list app:
 
----
+```bash
+python main.py
+```
 
-# Game Development
+Run other Python exercises individually:
 
-1. **Pygame** 
-2. **Arcade** 
-3. **Panda3D** 
-4. **Ursina Engine** 
-5. **PyOpenGL**
+```bash
+python task-1.py
+python task-2.py
+```
 
----
+## Learning Goals
 
-# AI
+This project helps practice:
+- Python syntax and control flow
+- Functions and reusable code
+- Lists and data structures
+- File operations
+- Basic GUI development with PyQt6
 
-1. **TensorFlow** 
-2. **PyTorch** 
-3. **Keras** 
-4. **Transformers** 
-5. **LangChain** 
+## Author
+
+Created as a Python learning project.
 
