@@ -21,6 +21,7 @@ def calculate_typing_speed():
     # Calculate typing speed in words per minute (WPM)
     typing_speed = (word_count / time_taken) * 60
     
+    
     print(f"\nYou typed {word_count} words in {time_taken:.2f} seconds.")
     print(f"Your typing speed is {typing_speed:.2f} words per minute.")
 
