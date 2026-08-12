@@ -73,6 +73,8 @@
 
 import pandas as pd
 from pathlib import Path
+from mail_sender import MailSender
+mail_sender = MailSender()
 
 FILE_NAME = Path("attendance_data.csv")
 VALID_STATUS = {"Present", "Absent"}
@@ -290,7 +292,19 @@ def show_menu():
     print("8.  Exit")
     print("=" * 50)
 
+# def send_mail():
+#     import os
+#     os.environ["SENDER_ADDR"] = "ap5351545@gmail.com"
+#     os.environ["SENDER_PASS"] = "nindpbdkvpkkelhp"
+#     os.environ["SMTP_PORT"]   = "587"
+#     os.environ["SMTP_SERVER"] = "smtp.gmail.com"
 
+#     mail_sender.send_mail(
+#     receiver_address = "test@gmail.com", subject = "email subject",
+#     content = "message content", attach_files = (("attendance_data.csv", file),)
+# )
+    
+    
 # ======================================================
 # MAIN PROGRAM
 # ======================================================
