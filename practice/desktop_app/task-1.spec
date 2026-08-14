@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['task-1.py'],
+    ['practice/desktop_app/task-1.py'],
     pathex=[],
     binaries=[],
     datas=[],

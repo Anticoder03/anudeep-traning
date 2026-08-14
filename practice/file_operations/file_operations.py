@@ -1,13 +1,17 @@
-with open("student.txt","w") as file:
+from pathlib import Path
+
+student_file = Path(__file__).with_name("student.txt")
+
+with student_file.open("w") as file:
     file.write("Hello World")
 
-with open("student.txt","r") as file:
+with student_file.open("r") as file:
     content = file.read()
     print(content)
 
-with open("student.txt","a") as file:
+with student_file.open("a") as file:
     file.write("\nThis is a new line.")
     
-with open("student.txt","r") as file:
+with student_file.open("r") as file:
     content = file.read()
     print(content)

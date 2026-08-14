@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 # data = {
 #     "Name": ["Alice", "Bob", "Charlie", "David"],
 #     "Age": [25, 30, 35, 40],
@@ -14,7 +15,8 @@ import pandas as pd
 # df["City"] = city
 # print(df)
 
-sales_data = pd.read_csv("salesdata.csv")
+sales_csv = Path(__file__).with_name("salesdata.csv")
+sales_data = pd.read_csv(sales_csv)
 # print(sales_data)  
 # print("Head: ", sales_data.head())  #* Display the first few rows of the DataFrame
 # print("Tail: ", sales_data.tail())  #* Get summary statistics of the DataFrame

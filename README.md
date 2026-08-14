@@ -4,11 +4,16 @@ This repository contains beginner-friendly Python exercises, a small PyQt6 to-do
 
 ## Project Overview
 
-The workspace includes:
-- Simple Python practice scripts for fundamental programming concepts
-- A small to-do list application built with PyQt6
-- A Django-based practice app in the my-django-app folder
-- Example programs for assignments and daily learning
+The workspace now uses a topic-based structure for easier navigation:
+- practice/basics: Core Python practice files (loops, lists, functions, comprehensions, tuple/set exercises)
+- practice/file_operations: File, OS, and system-related scripts plus sample text files
+- practice/data_analysis: NumPy, pandas, notebooks, and CSV datasets
+- practice/desktop_app: PyQt6 to-do app, build artifacts, and PyInstaller spec
+- my-django-app: Django practice app
+- attendance-system: Attendance-related practice project
+- adi/Mental-Health-Prediction-System: Separate project workspace
+
+This structure keeps small learning scripts grouped by concept while preserving larger projects in their own folders.
 
 
 
